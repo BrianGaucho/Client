@@ -27,9 +27,9 @@ Text Domain:  Marazzo
 16.  Testimonials
 
 /* */
-/*===================================================================================*/
+*/
 /*  Body
-/*===================================================================================*/
+*/
 .inline {
   display: inline-block;
   vertical-align: top;
@@ -97,9 +97,9 @@ img[src="assets/images/blank.gif"] {
   margin-top: 5px;
 }
 
-/*===================================================================================*/
+*/
 /*  Buttons
-/*===================================================================================*/
+*/
 
 .btn-uppercase {
   text-transform: uppercase;
@@ -158,9 +158,9 @@ img[src="assets/images/blank.gif"] {
 }
 
 
-/*===================================================================================*/
+*/
 /*  Layout
-/*===================================================================================*/
+*/
 .center-block {
   float: none;
 }
@@ -375,7 +375,7 @@ img[src="assets/images/blank.gif"] {
 	border-bottom: 1px solid #eaeaea;
     padding-bottom: 10px;
     padding: 18px 20px;
-	background: #ff7878;
+	background: orange;
     color: #fff;
 	border-radius:5px 0px 0px 0px
 }
@@ -451,7 +451,6 @@ img[src="assets/images/blank.gif"] {
 .custom-carousel .owl-controls .owl-prev:before {
   color: #fff;
   content: "\f104";
-  font-family: fontawesome;
   font-size: 13px;
   left: 7px;
     position: absolute;
@@ -475,7 +474,6 @@ img[src="assets/images/blank.gif"] {
 }
 .custom-carousel .owl-controls .owl-next:before {
   content: "\f105";
-  font-family: fontawesome;
   color: #fff;
   font-size: 13px;
   left: 7px;
@@ -1192,9 +1190,9 @@ a {
 }
 
 
-/*===================================================================================*/
+*/
 /* Header
-/*===================================================================================*/
+*/
 header{
     background: #fdd922;
 }
@@ -1296,7 +1294,6 @@ header{
 .main-header .top-search-holder .search-area .search-button:after {
   color: #333;
   content: "\f002";
-  font-family: fontawesome;
   font-size: 18px;
   line-height: 9px;
   vertical-align: middle;
@@ -1433,8 +1430,15 @@ header{
 }
 .navbar-nav {float:none}
 
-.special-menu {float:right}
-.special-menu a {color:#ffdd35!important; border:none!important; padding-right:0px!important} 
+.special-menu {
+  float:right;
+}
+
+.special-menu a {
+  color:orange!important;
+  border:none!important;
+  padding-right:0px!important;
+} 
 .special-menu a:hover{ background:none!important; color:#fff!important}
 
 .header-style-1 .header-nav .navbar-default .navbar-collapse .navbar-nav > li > a {
@@ -1489,22 +1493,22 @@ header{
   top: 90%;
 }
 .header-style-1 .header-nav .navbar-default .navbar-collapse .navbar-nav > li .menu-label.new-menu {
-  background: #f1c40f;
+  background: orangered;
 }
 .header-style-1 .header-nav .navbar-default .navbar-collapse .navbar-nav > li .menu-label.new-menu:after {
-  border-color: #f1c40f rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  border-color: orangered rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
 }
 .header-style-1 .header-nav .navbar-default .navbar-collapse .navbar-nav > li .menu-label.new-menu:before {
-  border-color: #f1c40f rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  border-color: orangered rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
 }
 .header-style-1 .header-nav .navbar-default .navbar-collapse .navbar-nav > li .menu-label.hot-menu {
-  background: #ff7878;
+  background: orange;
 }
 .header-style-1 .header-nav .navbar-default .navbar-collapse .navbar-nav > li .menu-label.hot-menu:after {
-  border-color: #ff7878 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  border-color: orange rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
 }
 .header-style-1 .header-nav .navbar-default .navbar-collapse .navbar-nav > li .menu-label.hot-menu:before {
-  border-color: #ff7878 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  border-color: orange rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
 }
 .header-style-2 {
   /*margin-bottom:10px;*/
@@ -1666,9 +1670,9 @@ header{
 }
 
 
-/*===================================================================================*/
+*/
 /*  Side menu
-/*===================================================================================*/
+*/
 
 .sidebar .side-menu {
     background-color: #fff;
@@ -1684,7 +1688,7 @@ header{
   font-size: 20px;
   font-family:'Barlow', sans-serif;
   padding: 15px 17px;
-  background-color: #fdd922;
+  background-color: orangered;
   font-weight:500;
   letter-spacing: 0.2px;
 }
@@ -1801,7 +1805,6 @@ header{
 .sidebar .sidebar-module-container .sidebar-widget .sidebar-widget-body .accordion .accordion-group .accordion-heading .accordion-toggle:after {
   content:"\f068";
   float: right;
-  font-family: fontawesome;
 }
 .sidebar .sidebar-module-container .sidebar-widget .sidebar-widget-body .accordion .accordion-group .accordion-heading .accordion-toggle.collapsed {
   color: #666666;
@@ -1809,7 +1812,6 @@ header{
 .sidebar .sidebar-module-container .sidebar-widget .sidebar-widget-body .accordion .accordion-group .accordion-heading .accordion-toggle.collapsed:after {
   color: #636363;
   content: "\f067";
-  font-family: fontawesome;
   font-weight:normal
 }
 .sidebar .sidebar-module-container .sidebar-widget .sidebar-widget-body .accordion .accordion-group .accordion-body .accordion-inner {
@@ -1826,7 +1828,6 @@ header{
 }
 .sidebar .sidebar-module-container .sidebar-widget .sidebar-widget-body .accordion .accordion-group .accordion-body .accordion-inner ul li a:before {
   content: "\f105";
-  font-family: fontawesome;
   font-size: 14px;
   line-height: 15px;
   margin: 0 5px 0 0;
@@ -1936,7 +1937,7 @@ header{
 }
 .sidebar .sidebar-widget .advertisement .item .caption .big-text .big {
   font-size: 120px;
-  color: #ff7878;
+  color: orange;
   display: block;
   text-shadow: 1px 1px 3px #cfcfcf;
 }
@@ -1991,9 +1992,9 @@ header{
   position: absolute;
 }
 
-/*===================================================================================*/
-/*  Slider
-/*===================================================================================*/
+
+/*  Slider*/
+
 #owl-main {
   text-align: center;
   cursor: default;
@@ -2382,7 +2383,7 @@ header{
   letter-spacing:-2px
 }
 #owl-main .item .caption .big-text .highlight {
-  color: #f1c40f;
+  color: orangered;
 }
 #owl-main .item .caption .excerpt,
 #owl-main .item .caption .small {
@@ -2739,9 +2740,9 @@ font-family: FontAwesome;
 }
 /* ======================== End Features Box ============================ */
 
-/*===================================================================================*/
+*/
 /*  Home Tabs
-/*===================================================================================*/
+*/
 
 .scroll-tabs {
   margin-bottom: 30px;
@@ -2895,7 +2896,7 @@ font-family: FontAwesome;
   background: #46aad7;
 }
 .tag.hot {
-  background: #ff7878;
+  background: orange;
 }
 .product:hover .cart {
   opacity: 1;
@@ -2949,7 +2950,6 @@ font-family: FontAwesome;
 .product-micro .product-image .image a .zoom-overlay:before {
   color: #FFFFFF;
   content: "\f00e";
-  font-family: fontawesome;
   left: 45%;
   position: relative;
   right: 40%;
@@ -3077,7 +3077,7 @@ font-family: FontAwesome;
   width: 60%;
 }
 .cnt-strip .strip .red {
-  color: #ff7878;
+  color: orange;
 }
 .cnt-strip .strip .black {
   color: #434343;
@@ -3544,7 +3544,7 @@ font-family: FontAwesome;
   right: 10px;
   width: 50px;
   z-index: 100;
-  background: #ff7878;
+  background: orange;
   position: absolute;
   text-align: center;
 }
@@ -3938,9 +3938,9 @@ font-family: FontAwesome;
   
 }
 
-/*===================================================================================*/
+*/
 /*  Product Detail
-/*===================================================================================*/
+*/
 
 .detail-block {
  background-color: #fff;
@@ -3982,7 +3982,7 @@ font-family: FontAwesome;
 }
 .single-product .product-info .stock-container .stock-box .value {
   font-size: 13px;
-  color: #ff7878;
+  color: orange;
   margin-left:10px
 }
 .single-product .product-info .description-container {
@@ -4250,7 +4250,6 @@ font-family: FontAwesome;
 .cnt-homepage .single-product .single-product-gallery .gallery-thumbs .nav-holder .prev-btn:after,
 .cnt-homepage .single-product .single-product-gallery .gallery-thumbs .nav-holder .next-btn:after {
   bottom: 0;
-  font-family: fontawesome;
   font-size: 30px;
   height: 30px;
   left: 0;
@@ -4569,7 +4568,7 @@ font-family: FontAwesome;
   background: #46aad7;
 }
 .homepage-container .product .product-image .tag.hot {
-  background: #ff7878;
+  background: orange;
 }
 .homepage-container .product .product-info .name {
   font-size: 18px !important;
@@ -4702,7 +4701,7 @@ font-family: FontAwesome;
   background: #989898;
 }
 .wrapper .box .wrapper-inner .wrapper-body-inner .owl-item .tag.hot {
-  background: #ff7878;
+  background: orange;
 }
 .body-content .x-page .x-text h1 {
   font-size: 200px;
@@ -4832,7 +4831,6 @@ font-family: FontAwesome;
 }
 .blog-page .sidebar .sidebar-module-container .search-area .search-button:after {
   content: "\f002";
-  font-family: fontawesome;
   font-size: 13px;
   position: absolute;
   top: 14px;
@@ -5044,9 +5042,9 @@ font-family: FontAwesome;
   background: rgba(0, 0, 0, 0);
 }
 
-/*===================================================================================*/
+*/
 /* Checkout
-/*===================================================================================*/
+*/
 .checkout-box .checkout-steps .panel-default    {
   background-color: #fff;
     padding: 20px;
@@ -5162,9 +5160,9 @@ font-family: FontAwesome;
 
 
 
-/*===================================================================================*/
+*/
 /*  Contact Us
-/*===================================================================================*/
+*/
 
 .contact-page {
    background-color: #fff;
@@ -5210,9 +5208,9 @@ font-family: FontAwesome;
 }
 
 
-/*===================================================================================*/
+*/
 /*  Shopping Cart
-/*===================================================================================*/
+*/
 
 .shopping-cart {
     background-color: #fff;
@@ -5521,9 +5519,9 @@ font-family: FontAwesome;
   padding-right: 2px;
 }
 
-/*===================================================================================*/
+*/
 /*  Terms and Condition/track orders/
-/*===================================================================================*/
+*/
 
 .terms-conditions-page {
     background-color: #fff;
@@ -5607,9 +5605,9 @@ font-family: FontAwesome;
 }
 
 
-/*===================================================================================*/
+*/
 /*  Wishlist
-/*===================================================================================*/
+*/
 
 .my-wishlist-page {
     background-color: #fff;
@@ -5681,13 +5679,13 @@ font-size: 24px;
 }
 .body-content .my-wishlist-page .my-wishlist table tbody .close-btn a,
 .body-content .my-wishlist-page .my-wishlist table tbody .close-btn a:hover {
-  color: #ff7878;
+  color: orange;
   font-size: 15px;
 }
 
-/*===================================================================================*/
+*/
 /*  Signup and login
-/*===================================================================================*/
+*/
 
 .sign-in-page {
     background-color: #fff;
@@ -5771,9 +5769,9 @@ height:25px
 
 }
 
-/*===================================================================================*/
+*/
 /*  Responsive Layout
-/*===================================================================================*/
+*/
 
 @media (min-width: 320px) and (max-width: 479px) {
 
@@ -7352,9 +7350,9 @@ li.dropdown.navbar-right.special-menu {
 	
 }
 
-/*===================================================================================*/
+*/
 /*  Testimonials
-/*===================================================================================*/
+*/
 
 .avatar  {margin-top:10px; text-align:center; overflow:hidden; margin-bottom:10px}
 .avatar img  {border-radius:0px; margin-bottom:10px; width:auto; display:inline-block; width:110px; border-radius:999px }
@@ -7365,9 +7363,9 @@ li.dropdown.navbar-right.special-menu {
 .testimonials-section .bx-wrapper {margin: 0 0 50px;}
 .testimonials-section em {font-size:30px; font-style:normal; vertical-align:top; display:inline-block; line-height:5px; margin-top:15px;     font-family: Arial, Helvetica, sans-serif;}
 
-/*===================================================================================*/
+*/
 /*  LHS banners
-/*===================================================================================*/
+*/
 
 .home-banner { margin-top: 30px;}
 .home-banner img {border-radius:5px}	
