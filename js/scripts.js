@@ -1,9 +1,6 @@
 jQuery(document).ready(function() {
     "use strict";
 
-/*===================================================================================*/
-/*	OWL CAROUSEL
-/*===================================================================================*/
 jQuery(function () {
     var dragging = true;
     var owlElementID = "#owl-main";
